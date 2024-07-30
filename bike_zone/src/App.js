@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import InitialPage from './components/InitialPage';
-// Import other components like CustomerLogin and AdminLogin once they are created
+import CustomerSignup from './components/CustomerSignup';
+
 
 const App = () => {
   return (
@@ -9,9 +10,7 @@ const App = () => {
       <div className="App">
         <Routes>
           <Route path="/" element={<InitialPage />} />
-          {/* <Route path="/customer-login" element={<CustomerLogin />} />
-          <Route path="/admin-login" element={<AdminLogin />} /> */}
-          {/* Add other routes here */}
+          <Route path="/customer-signup" element={<CustomerSignup />} />
         </Routes>
       </div>
     </Router>
