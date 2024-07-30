@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import InitialPage from './components/InitialPage';
 import CustomerSignup from './components/CustomerSignup';
 import CustomerLogin from './components/CustomerLogin';
+import AdminLogin from './components/AdminLogin';
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
           <Route path="/" element={<InitialPage />} />
           <Route path="/customer-signup" element={<CustomerSignup />} />
           <Route path="/customer-login" element={<CustomerLogin />} />
+          <Route path="/admin-login" element={<AdminLogin />} />
         </Routes>
       </div>
     </Router>
