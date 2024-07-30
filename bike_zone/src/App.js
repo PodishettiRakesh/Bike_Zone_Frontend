@@ -9,8 +9,6 @@ const App = () => {
       <div className="App">
         <Routes>
           <Route path="/" element={<InitialPage />} />
-          {/* <Route path="/customer-login" element={<CustomerLogin />} />
-          <Route path="/admin-login" element={<AdminLogin />} /> */}
           {/* Add other routes here */}
         </Routes>
       </div>
