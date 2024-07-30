@@ -26,6 +26,7 @@ const InitialPage = () => {
       <h1>Welcome to Bike Zone</h1>
       <p>Please select your user type:</p>
       <select value={userType} onChange={(e) => setUserType(e.target.value)}>
+        
         <option value="" disabled>Select User Type</option>
         <option value="customer">Customer</option>
         <option value="admin">Admin</option>
