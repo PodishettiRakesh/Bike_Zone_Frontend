@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import InitialPage from './components/InitialPage';
 import CustomerSignup from './components/CustomerSignup';
-// Import other components like CustomerLogin and AdminLogin once they are created
+
 
 const App = () => {
   return (
@@ -11,10 +11,6 @@ const App = () => {
         <Routes>
           <Route path="/" element={<InitialPage />} />
           <Route path="/customer-signup" element={<CustomerSignup />} />
-          {/* <Route path="/customer-login" element={<CustomerLogin />} />
-          
-          <Route path="/admin-login" element={<AdminLogin />} /> */}
-          {/* Add other routes here */}
         </Routes>
       </div>
     </Router>
